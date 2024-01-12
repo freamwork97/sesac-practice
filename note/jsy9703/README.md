@@ -4,6 +4,14 @@
 
 ## git 기본 사용법
 
-- git add
-- git commit -m "message"
-- git push origin master(main)
+```git bash
+git add
+git commit -m "message"
+git push origin master(main)
+```
+
+## branch
+
+```git
+git branch "브랜치명"
+```
