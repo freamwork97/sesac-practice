@@ -4,7 +4,7 @@ import random
 
 # 지연된 느낌을 내보고자 일부로 메세지를 쪼갠다.
 def split_message(message, chunk_size=2):
-    return [message[i : i + chunk_size] for i in range(0, len(message), chunk_size)]
+    return [message[i: i + chunk_size] for i in range(0, len(message), chunk_size)]
 
 
 def dobongi(message, min_delay=0.5, max_delay=2):
@@ -31,6 +31,8 @@ while True:
         f"User>>> {user_input}",
     )
     print("도봉이>>> ", end="")
+
     for chunk in dobongi(response):
         print(chunk, end="")
+    # \n 없애도 가능
     print("\n", end="")
