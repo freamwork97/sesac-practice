@@ -33,4 +33,4 @@ while True:
     print("도봉이>>> ", end="")
     for chunk in dobongi(response):
         print(chunk, end="", flush=True)
-    print("\n", end="")
+    print()
