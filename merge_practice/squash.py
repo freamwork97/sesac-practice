@@ -31,8 +31,8 @@ while True:
         f"User>>> {user_input}",
     )
     print("도봉이>>> ", end="")
-
     for chunk in dobongi(response):
         print(chunk, end="")
-    # \n 없애도 가능
     print("\n", end="")
+
+    # adadada
